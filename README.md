@@ -1,24 +1,16 @@
-# uC++ Language Support
+# µC++ Language Support for VSCode
 
-uC++ Language Support
+This extension provides basic syntax highlighting for [&micro;C++](https://github.com/pabuhr/uCPP).
 
-## Features
+<!-- - autocompletes &micro;C++ language constructs -->
+- highlights `.cc`, `.ucc`, and `.ucpp` files
+- support for &micro;C++ type specifiers ( `_Coroutine`, `_Event`, `_Task`, ... )
+- support for &micro;C++ control flow keywords ( `_Accept`, `_Select`, `_When`, ... )
+- support for &micro;C++ exception handling ( `_Resume`, `_Finally`, `_Enable`, ... )
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-<!-- \!\[feature X\]\(images/feature-x.png\) -->
-
-> Tip: Many popular xtensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+![µC++](images/ucpp.png)
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 1.0.1
 
@@ -27,3 +19,8 @@ Added support for .ucc and .ucpp.
 ### 1.0.0
 
 Initial release of ucpp.
+
+
+## Credits
+
+ * TextMate language files for µC++ adopted from the [µC++ Syntax Highlighting for Sublime](https://github.com/poduncan/ucpp-subl2-syntax)
