@@ -2,13 +2,15 @@
 
 This extension provides basic syntax highlighting for [&micro;C++](https://github.com/pabuhr/uCPP).
 
+![µC++](images/ucpp.png)
+
+## Features
+
 <!-- - autocompletes &micro;C++ language constructs -->
 - highlights `.cc`, `.ucc`, and `.ucpp` files
 - support for &micro;C++ type specifiers ( `_Coroutine`, `_Event`, `_Task`, ... )
 - support for &micro;C++ control flow keywords ( `_Accept`, `_Select`, `_When`, ... )
 - support for &micro;C++ exception handling ( `_Resume`, `_Finally`, `_Enable`, ... )
-
-![µC++](images/ucpp.png)
 
 ## Release Notes
 
