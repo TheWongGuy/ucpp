@@ -7,7 +7,7 @@
         "type": "git",
         "url": "https://github.com/dillionverma/ucpp.git"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.49.0"
     },
@@ -15,16 +15,27 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "ucpp",
-            "aliases": ["uC++", "ucpp"],
-            "extensions": [".cc", ".ucc", ".ucpp"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "ucpp",
-            "scopeName": "source.ucpp",
-            "path": "./syntaxes/ucpp.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "ucpp",
+                "aliases": [
+                    "uC++",
+                    "ucpp"
+                ],
+                "extensions": [
+                    ".cc",
+                    ".ucc",
+                    ".ucpp"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ucpp",
+                "scopeName": "source.ucpp",
+                "path": "./syntaxes/ucpp.tmLanguage"
+            }
+        ]
     }
 }
