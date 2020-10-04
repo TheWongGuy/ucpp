@@ -2,7 +2,7 @@
 
 This extension provides basic syntax highlighting for [&micro;C++](https://github.com/pabuhr/uCPP).
 
-![µC++](images/ucpp.png)
+![µC++](https://github.com/dillionverma/ucpp/blob/main/images/ucpp.png)
 
 ## Features
 
@@ -14,6 +14,10 @@ This extension provides basic syntax highlighting for [&micro;C++](https://githu
 
 ## Release Notes
 
+### 1.0.3
+
+Update description and add picture.
+
 ### 1.0.1
 
 Added support for .ucc and .ucpp.
@@ -21,7 +25,6 @@ Added support for .ucc and .ucpp.
 ### 1.0.0
 
 Initial release of ucpp.
-
 
 ## Credits
 
